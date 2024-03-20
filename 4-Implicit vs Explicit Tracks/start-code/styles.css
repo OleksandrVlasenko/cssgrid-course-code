@@ -3,5 +3,9 @@
 /* lesson styles */
 
 .container {
-  display: grid;
+	display: grid;
+	grid-template-columns: 100px 200px;
+	grid-template-rows: 50px 100px;
+	gap: 20px;
+	grid-auto-rows:10px 20px 30px;
 }
