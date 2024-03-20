@@ -5,7 +5,7 @@
   padding: 16px 0;
 }
 
-.header-container {
+.header-container, .footer-container {
   display: grid;
   grid-template-columns: 24px 1fr;
   column-gap: 8px;
